@@ -12,12 +12,12 @@ jobs:
         node-version: [16.x]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2 
       
-      - name: setup git config
-        run: |
-          git config user.name "as409"
-          git config user.email "akhilsharma3304@gmail.com"
+      # - name: setup git config
+      #   run: |
+      #     git config user.name "as409"
+      #     git config user.email "akhilsharma3304@gmail.com"
 
 
       - name: Use Node.js ${{ matrix.node-version }}
