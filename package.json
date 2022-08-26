@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "ng deploy --base-href=/dashboard/",
-    "lint": "eslint . --ext js,jsx,ts,tsx --fix"
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
