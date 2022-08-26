@@ -48,4 +48,4 @@ jobs:
 #           npm run test 
       - name: Deploy
         run: |
-          npm run deploy
+          npm run deploy -- --no-silent
