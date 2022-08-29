@@ -1,4 +1,4 @@
-name: Angular GitHub CI/CD
+name: Angular Dashboard CI/CD
 on:
   push:
     branches:
